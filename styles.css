@@ -115,3 +115,6 @@
 
 /* Rose-pink frames for the four contact links. */
 .contact-grid .contact-tile{border-color:#c85b87}
+
+/* Preserve the trailing gap at the seam between repeated ribbon copies. */
+.marquee-track span{white-space:pre}
