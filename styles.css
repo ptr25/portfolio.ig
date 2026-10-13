@@ -137,3 +137,8 @@
  .notes-grid .note .note-detail{font-size:12px;line-height:1.5}
  .notes-grid .note-label{font-size:10px;letter-spacing:.6px}
 }
+
+/* Three clearly separated grey sections. */
+.story{background:#626675}
+.about-me{background:#2c2e39}
+.notes-section{background-color:#41434f}
