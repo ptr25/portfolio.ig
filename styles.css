@@ -36,7 +36,7 @@
 /* Brighter name and selective soft pink surfaces. */
 .hero h1{color:#d8125b}
 .connect{background:#dfc5d0}
-.connect h2{color:#a80e47}
+.connect h2{color:#494b57}
 .contact-tile:nth-child(2),.contact-tile:nth-child(3){background:#ffe0ec}
 .contact-tile .tile-label{color:#a80e47}
 .note:nth-child(4n){--note:#f8cddd;color:#2c2e39}
