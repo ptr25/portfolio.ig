@@ -112,3 +112,6 @@
 
 /* Match the project heading to the hero name's bold, compact lettering. */
 .notes-section .section-title{font-weight:800;width:140%;transform:scaleX(.71);transform-origin:left center}
+
+/* Rose-pink frames for the four contact links. */
+.contact-grid .contact-tile{border-color:#c85b87}
