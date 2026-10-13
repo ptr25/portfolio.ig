@@ -10,7 +10,6 @@
  play();
  document.fonts.ready.then(()=>{if(!intro.hidden){const signature=intro.querySelector('.signature');signature.getAnimations({subtree:true}).forEach(a=>a.currentTime=0)}});
  document.getElementById('github-days').textContent=Math.floor((Date.now()-Date.UTC(2020,2,30))/86400000).toLocaleString('en-IN');
- const toggle=document.querySelector('.marquee-toggle');toggle.addEventListener('click',()=>{const paused=document.querySelector('.marquee').classList.toggle('paused');toggle.textContent=paused?'▶':'Ⅱ';toggle.setAttribute('aria-label',paused?'Play scrolling banner':'Pause scrolling banner')});
  if('IntersectionObserver' in window){const ob=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');ob.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>ob.observe(el))}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'))}
 
  // Trigger all four contact tiles together when the grid enters view.
