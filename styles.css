@@ -78,7 +78,7 @@
 .about-me{background:#2c2e39;color:#f8f8fa;padding:100px 6vw;overflow:hidden}
 .about-inner{max-width:1180px;margin:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:64px;align-items:center}
 .about-art{min-width:0;position:relative}
-#binary-flower{display:block;width:100%;height:auto;aspect-ratio:527/305;object-fit:contain}
+#binary-flower{display:block;width:100%;height:auto;aspect-ratio:72/65}
 .binary-caption{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:8px 20px 0;color:#ff9fc2;font:12px/1.5 monospace;letter-spacing:2px}
 .about-copy h2{font:800 clamp(38px,4.8vw,68px)/1 'Syne',sans-serif;letter-spacing:-2px;margin:0 0 32px;color:#ff85b2}
 .about-copy h2 span{color:#d8125b}
