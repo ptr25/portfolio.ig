@@ -142,3 +142,18 @@
 .story{background:#626675}
 .about-me{background:#2c2e39}
 .notes-section{background-color:#41434f}
+
+/* Keep the desktop introduction balanced instead of enlarging its type with the window. */
+@media(min-width:701px){
+ .hero{min-height:100svh}
+ .hero-inner{width:100%;max-width:1120px;gap:48px}
+ .hero-name{min-width:0}
+ .hero h1{font-size:clamp(50px,5.6vw,78px)}
+}
+@media(min-width:1001px){
+ .hero-inner{grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:clamp(72px,8vw,112px)}
+ .hero h1{font-size:78px}
+ .hero-name>p{font-size:32px}
+ .hero .widget{font-size:27px;padding:20px}
+ .hero .github-age{font-size:25px}
+}
