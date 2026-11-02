@@ -29,4 +29,17 @@
   }
  }
 
+ const mailToggle = document.getElementById('mail-toggle');
+ const mailStage = document.getElementById('mail-stage');
+ const memoryCards = document.getElementById('memory-cards');
+ if (mailToggle && mailStage && memoryCards) {
+  mailToggle.addEventListener('click', () => {
+   const isOpen = mailToggle.getAttribute('aria-expanded') !== 'true';
+   mailToggle.setAttribute('aria-expanded', String(isOpen));
+   mailStage.classList.toggle('is-open', isOpen);
+   memoryCards.setAttribute('aria-hidden', String(!isOpen));
+   mailToggle.firstChild.textContent = isOpen ? 'Close the envelope ' : 'Open the envelope ';
+  });
+ }
+
 })();
